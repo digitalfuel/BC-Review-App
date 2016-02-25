@@ -1,0 +1,40 @@
+{
+  "reviews": [
+    {
+    "itemname": "sys set sortable-comment",
+    "weight": "1020",
+    "required": false,
+    "visible": true
+    },
+    {
+      "itemname": "sys noact sortable-email",
+      "weight": "1030",
+      "required": true,
+      "visible": false
+    },
+    {
+      "itemname": "sys set sortable-name",
+      "weight": "1040",
+      "required": true,
+      "visible": false
+    },
+    {
+      "appDetails": {
+        "reviewName": ""
+      }
+    },
+    {
+      "accessRights": []
+    },
+    {
+      "reviewSettings": {
+        "starDefault": "3",
+        "customerTitle": "DR"
+      }
+    }
+  ],
+  "appSettings": {
+    "requiresApproval": "",
+    "anonymousReviews": ""
+  }
+}

@@ -1,0 +1,98 @@
+{
+	"reviewCustomFields": [
+		{
+	        "id": 10,
+	        "name":"reviewID",
+	        "type":"String",
+	        "required":false
+	    },
+	    {
+	        "id": 20,
+	        "name":"ReviewName",
+	        "type":"String",
+	        "required":false
+	    },
+	    {
+	        "id": 200,
+	        "name":"totReviews",
+	        "type":"String",
+	        "required":false
+	    },
+		{
+	        "id": 210,
+	        "name":"avgRating",
+	        "type":"String",
+	        "required":false
+	    },
+		{
+	        "id": 220,
+	        "name":"realSum",
+	        "type":"String",
+	        "required":false
+	    },
+		{
+	        "id": 1000,
+	        "name":"Rating",
+			"type":"DropDown_List",
+  			"listItems": ["5", "4", "3", "2", "1"],
+	        "required":true
+	    },
+	    {
+	        "id": 1022,
+	        "name":"ReviewTitle",
+	        "type":"String",
+	        "required":false
+	    },
+	    {
+	        "id": 1020,
+	        "name":"Comments",
+	        "type":"String_MultiLine",
+	        "required":false
+	    },
+	    {
+	        "id": 1030,
+	        "name":"Email",
+	        "type":"String",
+	        "required":true
+	    },
+	    {
+	        "id": 1042,
+	        "name":"Title",
+	        "type":"DropDown_List",
+  			"listItems": ["--Please Select--", "Dr", "Miss", "Mr", "Mrs", "Ms"],
+	        "required":false
+	    },
+	    {
+	        "id": 1040,
+	        "name":"CustomerName",
+	        "type":"String",
+	        "required":true
+	    },
+	    {
+	        "id": 1050,
+	        "name":"CustomerLocation",
+	        "type":"String",
+	        "required":false
+	    },
+	    {
+	        "id": 1060,
+	        "name":"productRecommend",
+	        "type":"Boolean",
+	        "required":false
+	    },
+	    {
+	        "id": 1070,
+	        "name":"productQuality",
+	        "type":"DropDown_List",
+  			"listItems": ["0", "5", "4", "3", "2", "1"],
+	        "required":false
+	    },
+	    {
+	        "id": 1080,
+	        "name":"productValue",
+	        "type":"DropDown_List",
+  			"listItems": ["0", "5", "4", "3", "2", "1"],
+	        "required":false
+	    }
+	]
+}

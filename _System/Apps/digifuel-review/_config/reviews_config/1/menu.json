@@ -1,0 +1,1 @@
+{"menu-reviews":{"weight":200000,"icon":"/_config/icon.png","title":"Review"},"menu-add_reviews_app":{"parent":"menu-reviews","weight":10000,"title":"+ Add Review App","attr":{"href":"/Admin/AppLoader.aspx?client_id=digifuel-review&redirect_uri=edit.html&reviewID=-1"}}}
